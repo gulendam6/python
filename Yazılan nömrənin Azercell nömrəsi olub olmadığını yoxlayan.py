@@ -9,4 +9,4 @@ def azc(a):
     
 azc("+994513665229")
 
-#Nömrənin uzunluğunu yoxlamadım.
+
