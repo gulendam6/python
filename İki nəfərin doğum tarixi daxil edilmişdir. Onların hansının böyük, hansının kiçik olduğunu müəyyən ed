@@ -1,0 +1,17 @@
+def boyuk(a,b):
+    a = str(a)
+    b = str(b)
+    c = a.split(".")
+    d = b.split(".")
+    
+    if c[2] > d[2]:
+        print(b)
+        
+    elif c[2] < d[2]:
+        print(a)
+        
+    else:
+        print("Səhv")
+        
+        
+boyuk("11.05.2000","16.12.1999")
